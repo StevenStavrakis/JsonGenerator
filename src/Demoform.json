@@ -1,0 +1,263 @@
+[
+    Customer Details - General
+    {
+        "label": "Company",
+        "name": "Company",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "First Name",
+        "name": "First Name",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Last Name",
+        "name": "Last Name",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Job Title",
+        "name": "Job Title",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Business Phone",
+        "name": "Business Phone",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Mobile Phone",
+        "name": "Mobile Phone",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Street",
+        "name": "Address",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "State/Province",
+        "name": "State/Province",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Zip/Postal Code",
+        "name": "Zip/Postal Code",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Country/Region",
+        "name": "Country/Region",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "E-mail",
+        "name": "E-mail Address",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Web Page",
+        "name": "Web Page",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Notes",
+        "name": "Notes",
+        "type": "textarea",
+        "cols": "1",
+        "rows": ""
+    }
+],
+[
+    product details tab 1
+    {
+        "label": "Product ID",
+        "name": "ID",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Name",
+        "name": "Product Name",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Product Code",
+        "name": "Product Code",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Category",
+        "name": "Category",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Supplier",
+        "name": "Supplier IDs",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Quantity Per Unit",
+        "name": "Quantity Per Unit",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Description",
+        "name": "Description",
+        "type": "textarea",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Standard Cost",
+        "name": "Standard Cost",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "List Price",
+        "name": "List Price",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Reorder Level",
+        "name": "Reorder Level",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Target Level",
+        "name": "Target Level",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Default Reorder Quantity",
+        "name": "Minimum Reorder Quantity",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Discontinued",
+        "name": "Discontinued",
+        "type": "boolean",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Attachements",
+        "name": "Attachements",
+        "type": "textarea",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Attachments",
+        "name": "Attachments",
+        "type": "textarea",
+        "cols": "12",
+        "rows": ""
+    }
+],
+[
+    purchase order details
+    {
+        "label": "Supplier",
+        "name": "Supplier ID",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Created By",
+        "name": "Created By",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Submitted By",
+        "name": "Submitted By",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Approved By",
+        "name": "Approved By",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Expected Date",
+        "name": "Expected Date",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Creation Date",
+        "name": "Creation Date",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Submitted Date",
+        "name": "Submitted Date",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    },
+    {
+        "label": "Approved Date",
+        "name": "Approved Date",
+        "type": "string",
+        "cols": "12",
+        "rows": ""
+    }
+],[
+    supplier details tab 1 
+]

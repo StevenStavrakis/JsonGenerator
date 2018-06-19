@@ -1,0 +1,100 @@
+
+{
+    "label": "Product Details",
+    "type": "form",
+    "cols": "12",
+    "rows": "",
+    "fields": [
+        {
+            "label": "Product ID",
+            "name": "ID",
+            "type": "string",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Standard Cost",
+            "name": "Standard Cost",
+            "type": "string",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Name",
+            "name": "Product Name",
+            "type": "string",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "List Price",
+            "name": "List Price",
+            "type": "string",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Category",
+            "name": "Category",
+            "type": "string",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Reorder Level",
+            "name": "Reorder Level",
+            "type": "string",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Supplier",
+            "name": "Supplier IDs",
+            "type": "",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Default Reorder Quantity",
+            "name": "Minimum Reorder Quantity",
+            "type": "string",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Target Level",
+            "name": "Target Level",
+            "type": "string",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Quantity Per Unit",
+            "name": "Quantity Per Unit",
+            "type": "string",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Discontinued",
+            "name": "Discontinued",
+            "type": "boolean",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Description",
+            "name": "Description",
+            "type": "textarea",
+            "cols": "6",
+            "rows": ""
+        },
+        {
+            "label": "Attachments",
+            "name": "Attachments",
+            "type": "textarea",
+            "cols": "6",
+            "rows": ""
+        }
+    ]
+}

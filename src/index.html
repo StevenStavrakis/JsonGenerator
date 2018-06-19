@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="container-fluid well" style="justify-content: center; display: flex; flex-direction: column; align-items: center; margin: auto; margin-top: 100px;">
+            <div style="display: flex;">
+                    <form class="card" style="display: none; flex-direction: column; width: 300px; height: 400px; padding: 10px 30px; justify-content: space-between; padding: 40px 30px;">
+                        <h4>Tab</h4>
+                            <input type="text" value="label" id="tabLabel">
+                            <input type="text" value="Icon" id="tabIcon">
+                            <input type="button" value="submit" id="submit" onclick="tabSubmitted()">
+                        </form>
+            <form class="card section" id="sectionForm" style="margin-right: 20px; display: flex; flex-direction: column; width: 300px; height: 400px; justify-content: space-between; padding: 40px 30px;">
+                <h4>Section</h4>
+                <input type="text" placeholder="label" id="secLabel" tabindex=0  >
+                <select id="secType" name="type" tabindex=0>
+                    <option value="form">form</option>
+                    <option value="subform">Subform</option>
+                    <option value="" selected>Type</option>
+                </select>
+                <select id="secCols" tabindex=0>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="" selected>cols</option>
+                </select>
+                <select id="secRows" tabindex=0>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="" selected>rows</option>
+                </select>
+                <input type="button" value="Add Section" onclick="secSubmitted()" tabindex=0>
+            </form>
+
+            <form class="card" onload="makeArray()" style="display: flex; flex-direction: column; width: 300px; height: 400px; justify-content: space-evenly; padding: 10px 30px;">
+                <h4>Field</h4>
+                <input type="text" placeholder="label" id="label" >
+                <!--<input type="button" value="copy to name" onclick="copyToName()">-->
+                <input type="text" placeholder="name" id="name">
+                <select id="type" name="type">
+                    <option value="boolean">checkbox</option>
+                    <option value="string">textbox</option>
+                    <option value="textarea">textarea</option>
+                    <option value="" selected>Type</option>
+                </select>
+                <select id="cols">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="" selected>cols</option>
+                </select>
+                <select id="rows">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="" selected>rows</option>
+                </select>
+                <input type="button" value="Add Field" id="submit" onclick="submitted(); setFocusToTextBox();">
+                
+            </form>
+            </div>
+            <input type="button" value="Print" onclick="print()" style="width: 200px; margin-top: 20px;">
+            <div id="output" class="jumbotron" style="margin-top: 40px; max-width:800px; max-height: 300px; overflow-y: auto; min-width: 600px;">
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
+
