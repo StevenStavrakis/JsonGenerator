@@ -46,6 +46,8 @@ function copyToName() {
   document.getElementById("name").value = document.getElementById("label").value;
 }
 
+
+
 let section;
 function secSubmitted() {
   if (typeof section !== 'object') {
@@ -60,6 +62,8 @@ function secSubmitted() {
   }
   setFocusToTextBox();
 }
+
+
 
 function submitted() {
   if (document.getElementById("name").value == "") {
